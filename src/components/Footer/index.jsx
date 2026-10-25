@@ -14,7 +14,7 @@ export function Footer() {
       </div>
 
       <img
-        src="/onda-footer.png"
+        src="./onda-footer.png"
         alt="Onda decorativa"
         className="footer-wave"
       />

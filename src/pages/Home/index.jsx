@@ -6,7 +6,7 @@ export function Home() {
     <div className="home-container">
       <main className="home">
         <img
-          src="/ilustracao-home.jpg"
+          src="./ilustracao-home.jpg"
           alt="Ilustração de viagem"
           className="home-ilustracao"
         />
