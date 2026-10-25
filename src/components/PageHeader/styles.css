@@ -1,0 +1,37 @@
+.page-header {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.link-voltar {
+  display: inline-block;
+  margin-bottom: 25px;
+  color: #ee24ff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  transition: transform 0.2s;
+}
+
+.link-voltar:hover {
+  transform: translateX(-3px);
+}
+
+.titulo-pagina {
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #2d2d4d;
+  margin-bottom: 15px;
+}
+
+.subtitulo-pagina {
+  color: #6b6b7b;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .titulo-pagina {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,89 @@
+.pagina-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.ofertas {
+  flex: 1;
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.ofertas-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.oferta-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 25px 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.oferta-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(162, 89, 255, 0.2);
+}
+
+.oferta-titulo {
+  font-family: 'Dosis', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #2d2d4d;
+  margin-bottom: 8px;
+}
+
+.oferta-descricao {
+  color: #6b6b7b;
+  font-size: 14px;
+}
+
+.oferta-precos {
+  text-align: right;
+  min-width: 150px;
+}
+
+.badge-desconto {
+  display: inline-block;
+  background-color: #a259ff;
+  color: #ffffff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.preco-antigo {
+  color: #999;
+  text-decoration: line-through;
+  font-size: 13px;
+}
+
+.preco-novo {
+  color: #2d2d4d;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .oferta-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .oferta-precos {
+    text-align: center;
+  }
+}
